@@ -1,0 +1,6 @@
+version: '2'
+services:
+  sinopia:
+    build: .
+    ports:
+    - "4873:4873"
